@@ -55,6 +55,7 @@ models/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 *.ipynb
+!notebooks/demo.ipynb
 
 # Testing
 .pytest_cache/
