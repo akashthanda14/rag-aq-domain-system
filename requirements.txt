@@ -1,0 +1,37 @@
+# Core dependencies for RAG System
+# Python 3.9+
+
+# Document Processing
+langchain>=0.1.0
+pypdf2>=3.0.0
+python-docx>=1.1.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+transformers>=4.30.0
+torch>=2.0.0
+
+# Vector Storage & Retrieval
+faiss-cpu>=1.7.4
+# Alternative: faiss-gpu for GPU support
+numpy>=1.24.0
+
+# LLM Integration
+openai>=1.0.0
+tiktoken>=0.5.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# Optional: Web Interface
+# streamlit>=1.25.0
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+
+# Development & Testing
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.1.0
