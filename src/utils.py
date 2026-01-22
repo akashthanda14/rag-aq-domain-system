@@ -15,6 +15,9 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Constants for token estimation
+WORD_TO_TOKEN_RATIO = 1.3  # Approximate ratio for token counting
+
 
 def load_config(config_path: str = "config/config.yaml") -> Dict[str, Any]:
     """
@@ -154,8 +157,8 @@ def count_tokens(text: str, model: str = "gpt-3.5-turbo") -> int:
     #     # Fallback: rough approximation
     #     return len(text.split()) * 1.3
     
-    # Rough approximation
-    return int(len(text.split()) * 1.3)
+    # Rough approximation using constant ratio
+    return int(len(text.split()) * WORD_TO_TOKEN_RATIO)
 
 
 def truncate_text(

@@ -52,7 +52,7 @@ class TestValidateDocumentFormat:
     def test_validate_format(self):
         """Test format validation function."""
         # TODO: Implement once function is complete
-        assert validate_document_format("test.txt") == True
+        assert validate_document_format("test.txt")
 
 
 if __name__ == "__main__":
