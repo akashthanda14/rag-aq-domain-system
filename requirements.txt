@@ -1,0 +1,52 @@
+# Python Dependencies for RAG System
+# CSE435 Project
+
+# Core Dependencies
+python-dotenv>=1.0.0         # Environment variable management
+pyyaml>=6.0                  # Configuration file parsing
+
+# Machine Learning & NLP
+numpy>=1.24.0                # Numerical computing
+sentence-transformers>=2.2.0 # Embedding models
+transformers>=4.30.0         # Hugging Face transformers
+
+# Vector Databases
+faiss-cpu>=1.7.4            # FAISS for vector similarity search
+# chromadb>=0.4.0           # Alternative: ChromaDB (uncomment if needed)
+# pinecone-client>=2.2.0    # Alternative: Pinecone (uncomment if needed)
+
+# LLM APIs
+openai>=1.0.0               # OpenAI API client
+# anthropic>=0.3.0          # Alternative: Anthropic Claude (uncomment if needed)
+
+# Document Processing
+pypdf2>=3.0.0               # PDF reading
+# pdfplumber>=0.9.0         # Alternative PDF library (uncomment if needed)
+# python-docx>=0.8.11       # DOCX reading (uncomment if needed)
+# beautifulsoup4>=4.12.0    # HTML parsing (uncomment if needed)
+# lxml>=4.9.0               # XML/HTML parsing (uncomment if needed)
+
+# Text Processing
+# nltk>=3.8                 # Natural language toolkit (uncomment if needed)
+# spacy>=3.5.0              # Advanced NLP (uncomment if needed)
+
+# Retrieval Enhancement
+# rank-bm25>=0.2.2          # BM25 ranking (uncomment if needed)
+
+# Development Tools
+pytest>=7.4.0               # Testing framework
+black>=23.0.0               # Code formatting
+flake8>=6.0.0               # Linting
+
+# Optional: Web Interface
+# streamlit>=1.25.0         # Web UI (uncomment if needed)
+# gradio>=3.35.0            # Alternative web UI (uncomment if needed)
+
+# Optional: API Server
+# fastapi>=0.100.0          # REST API framework (uncomment if needed)
+# uvicorn>=0.23.0           # ASGI server (uncomment if needed)
+
+# Utilities
+tqdm>=4.65.0                # Progress bars
+requests>=2.31.0            # HTTP requests
+# tiktoken>=0.4.0           # Token counting for OpenAI (uncomment if needed)
